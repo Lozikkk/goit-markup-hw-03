@@ -17,12 +17,51 @@
 
 /*--------------------End Decor--------------------*/
 
+/*---------------------Reset-----------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+/*---------------------EndReset-----------------------*/
+
+/*----------------------Container---------------------*/
+
+.container {
+  width: 1600px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*-----------------------EndContainer-----------------*/
+
 /*---------------------Style Header---------------*/
 
 .header {
   background-color: #ffffff;
 }
 .logo {
+  margin-left: 215px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+
   font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
@@ -50,6 +89,12 @@
   letter-spacing: 0.02em;
 
   color: #212121;
+}
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+.contacts-list {
+  margin-left: auto;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -79,11 +124,32 @@
   letter-spacing: 0.02em;
 
   color: #757575;
+
+  margin-right: 215px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 50px;
 }
 .contacts-phone-number:hover,
 .contacts-phone-number:focus {
   color: #2196f3;
 }
+.header-container {
+  display: flex;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.contacts-list {
+  display: flex;
+  align-items: center;
+}
+
 /*----------------End Header----------------*/
 
 body {
@@ -91,8 +157,16 @@ body {
 }
 
 /*----------------Hero-----------------------*/
+
 .hero {
   background-color: #2f303a;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  width: 1600px;
+  height: 600px;
+  flex-direction: column;
 }
 .hero-title {
   font-weight: 900;
@@ -103,8 +177,19 @@ body {
   text-transform: uppercase;
 
   color: #ffffff;
+
+  width: 696px;
+  height: 120px;
+  margin-top: 200px;
+  margin-bottom: 30px;
 }
 .modal-btn {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  height: 50px;
+  padding: 10px 32px;
+  margin-bottom: 200px;
+
   background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
@@ -115,6 +200,7 @@ body {
   letter-spacing: 0.06em;
   margin: 0 auto;
   cursor: pointer;
+  border: none;
 
   color: #ffffff;
 }
@@ -123,6 +209,10 @@ body {
 /*----------------Advantages--------------------*/
 .advantages {
   background-color: #ffffff;
+}
+.advantages-container {
+  display: flex;
+  align-items: center;
 }
 .advantages-title-item {
   font-weight: 700;
@@ -142,10 +232,36 @@ body {
 
   color: #757575;
 }
+.advantages-list {
+  display: flex;
+  align-items: center;
+  padding-left: 215px;
+  padding-right: 215px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.advantages-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.advantages-title-item {
+  padding-bottom: 10px;
+}
 /*-----------------End Advantages----------------*/
 /*-----------------About AS----------------------*/
 .about-as {
   background-color: #ffffff;
+}
+.about-as-container {
+  display: flex;
+  align-items: center;
+}
+.about-as-list {
+  display: flex;
+  align-items: center;
+  margin-left: 215px;
+  margin-right: 215px;
+  padding-bottom: 94px;
 }
 .about-as-title {
   font-weight: 700;
@@ -153,8 +269,12 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-bottom: 50px;
 
   color: #212121;
+}
+.about-as-item:not(:last-child) {
+  margin-right: 30px;
 }
 /*-----------------End About-As------------------*/
 /*-----------------Our Team----------------------*/
@@ -169,6 +289,16 @@ body {
   letter-spacing: 0.03em;
 
   color: #212121;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+.our-team-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+  padding-bottom: 94px;
 }
 .our-team-people {
   font-weight: 500;
@@ -176,6 +306,7 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-top: 30px;
 
   color: #212121;
 }
@@ -185,9 +316,25 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-top: 10px;
+  padding-bottom: 30px;
 
   color: #757575;
 }
+.our-team-item {
+  margin-top: 30px;
+  margin-left: 30px;
+
+  background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.our-team-item:first-child {
+  margin-left: 215px;
+}
+
 /*-----------------End Our Team----------------------*/
 /*-----------------Footer-------------------------*/
 .footer {
