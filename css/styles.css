@@ -43,7 +43,7 @@ img {
 /*----------------------Container---------------------*/
 
 .container {
-  width: 1600px;
+  width: 1630px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -55,11 +55,12 @@ img {
 
 .header {
   background-color: #ffffff;
+  border: 1px solid #ececec;
 }
 .logo {
   margin-left: 215px;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  margin-top: 24px;
+  margin-bottom: 25px;
   margin-right: 93px;
 
   font-family: var(--secondary-font);
@@ -223,7 +224,12 @@ body {
 
   color: #212121;
 }
-
+.address-item {
+  margin-left: 215px;
+}
+.address-item:not(:last-child) {
+  margin-bottom: 9px;
+}
 .advantages-text {
   font-weight: 400;
   font-size: 14px;
@@ -256,6 +262,7 @@ body {
   display: flex;
   align-items: center;
 }
+
 .about-as-list {
   display: flex;
   align-items: center;
@@ -340,7 +347,11 @@ body {
 .footer {
   background-color: #2f303a;
 }
-
+.footer {
+  display: flex;
+  padding-top: 60px;
+  flex-direction: column;
+}
 .logo-footer {
   font-family: var(--secondary-font);
   font-style: normal;
@@ -350,6 +361,11 @@ body {
   letter-spacing: 0.03em;
 
   color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 215px;
 }
 .logo-type-footer {
   font-family: var(--secondary-font);
@@ -360,6 +376,11 @@ body {
   letter-spacing: 0.03em;
 
   color: #2196f3;
+}
+.address-list {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 60px;
 }
 .address-company {
   font-style: normal;
