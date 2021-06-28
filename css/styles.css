@@ -445,12 +445,14 @@ body {
   border-radius: 4px;
 }
 
+.portfolio-btn-item {
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+  margin-bottom: 34 px;
+}
 .portfolio-btn-item:not(:last-child) {
   margin-right: 8px;
-}
-.portfolio-btn-item {
-  padding-left: 40px;
-  margin-bottom: 34px;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -503,8 +505,6 @@ body {
 .portfolio-item {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-
   margin-left: 30px;
   margin-top: 30px;
 }
