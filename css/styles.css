@@ -468,6 +468,9 @@ body {
   letter-spacing: 0.06em;
 
   color: #212121;
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-bottom: 4px;
 }
 .portfolio-text {
   font-weight: 400;
@@ -476,6 +479,8 @@ body {
   letter-spacing: 0.03em;
 
   color: #757575;
+  padding-left: 24px;
+  padding-bottom: 20px;
 }
 .portfolio-conteiner {
   display: flex;
@@ -489,10 +494,11 @@ body {
 .porfolio-list {
   display: flex;
   flex-wrap: wrap;
-  flex-basis: calc((100% - 270px) / 9);
-  margin-top: -90px;
-  margin-left: -60px;
+  flex-basis: calc((100% / 9) - 270px);
+  margin-top: -60px;
+  margin-left: -90px;
   align-items: center;
+  padding-bottom: 94px;
 }
 .portfolio-item {
   display: flex;
@@ -501,5 +507,10 @@ body {
 
   margin-left: 30px;
   margin-top: 30px;
+}
+.portfolio-item-card {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 /*-----------------End Portfolio Main-----------------*/
