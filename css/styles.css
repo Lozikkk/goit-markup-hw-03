@@ -402,6 +402,7 @@ body {
 /*-----------------Portfolio----------------------*/
 .main-container-portfolio {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .portfolio-btn {
   background: var(--portfolio-btn);
@@ -411,20 +412,15 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
-
   color: #212121;
-  width: 145px;
-  height: 38px;
+
   border: none;
 
   background: #f5f4fa;
   border-radius: 4px;
+  padding: 6px 22px;
 }
 
-.portfolio-btn-item {
-  display: flex;
-  align-items: center;
-}
 .portfolio-btn-item:not(:last-child) {
   margin-right: 8px;
 }
@@ -458,21 +454,18 @@ body {
   padding-left: 24px;
   padding-bottom: 20px;
 }
-.portfolio-conteiner {
+/* .portfolio-conteiner {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
 
-  width: 1200px;
   margin-top: 94px;
-  margin-left: auto;
-}
+} */
 .porfolio-list {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 94px;
-  padding-bottom: 34px;
+  margin-bottom: 34px;
 }
 .portfolio-item {
   display: flex;
