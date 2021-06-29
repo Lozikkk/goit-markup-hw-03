@@ -104,6 +104,9 @@ img {
 .menu-link.curent {
   color: var(--accent-color);
 }
+.contacts-mail-tel:not(:last-child) {
+  margin-right: 50px;
+}
 .contacts-mail {
   font-family: var(--main-font);
   font-weight: 500;
@@ -112,7 +115,6 @@ img {
   letter-spacing: 0.02em;
 
   color: #757575;
-  margin-right: 50px;
 }
 .contacts-mail:hover,
 .contacts-mail:focus {
@@ -229,6 +231,10 @@ body {
   display: flex;
   align-items: center;
 }
+.advantages-list-item {
+  width: 270px;
+  /* flex-basis: calc((100% - 120px) / 4); */
+}
 .advantages-list-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -292,9 +298,13 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: 30px;
+  margin-bottom: 30px;
 
   color: #212121;
+}
+.people {
+  padding-top: 30px;
+  padding-bottom: 26px;
 }
 .our-team-text {
   font-weight: 400;
@@ -302,8 +312,6 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: 10px;
-  padding-bottom: 30px;
 
   color: #757575;
 }
