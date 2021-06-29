@@ -37,6 +37,7 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
 }
 /*---------------------EndReset-----------------------*/
 
@@ -425,9 +426,7 @@ body {
 
 .portfolio-btn-item {
   display: flex;
-  justify-content: center;
-  margin-left: 40px;
-  margin-bottom: 34 px;
+  align-items: center;
 }
 .portfolio-btn-item:not(:last-child) {
   margin-right: 8px;
@@ -473,27 +472,30 @@ body {
 }
 .porfolio-list {
   display: flex;
-  flex-wrap: wrap;
-  flex-basis: calc((100% / 9) - 270px);
-  margin-top: -60px;
-  margin-left: -90px;
+  justify-content: center;
   align-items: center;
-  padding-bottom: 94px;
 }
 .portfolio-item {
   display: flex;
   align-items: center;
-  margin-left: 30px;
-  margin-top: 30px;
+  padding-top: 94px;
+  padding-bottom: 34px;
 }
 .portfolio-item-card {
   background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
+
+  margin-top: 30px;
+  margin-left: 30px;
 }
 .container-buton {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.portfolio-projects {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
 }
 /*-----------------End Portfolio Main-----------------*/
