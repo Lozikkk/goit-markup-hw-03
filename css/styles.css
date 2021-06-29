@@ -221,12 +221,6 @@ body {
 
   color: #212121;
 }
-.address-item {
-  margin-left: 215px;
-}
-.address-item:not(:last-child) {
-  margin-bottom: 9px;
-}
 .advantages-text {
   font-weight: 400;
   font-size: 14px;
@@ -328,9 +322,6 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.our-team-item:first-child {
-  margin-left: 215px;
-}
 
 /*-----------------End Our Team----------------------*/
 /*-----------------Footer-------------------------*/
@@ -355,7 +346,6 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  margin-left: 215px;
 }
 .logo-type-footer {
   font-family: var(--secondary-font);
@@ -371,6 +361,9 @@ body {
   display: flex;
   flex-direction: column;
   padding-bottom: 60px;
+}
+.address-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 .address-company {
   font-style: normal;
