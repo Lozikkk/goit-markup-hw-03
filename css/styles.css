@@ -406,6 +406,9 @@ body {
 /*------------------End Footer--------------------*/
 
 /*-----------------Portfolio----------------------*/
+.main-container-portfolio {
+  padding-bottom: 94px;
+}
 .portfolio-btn {
   background: var(--portfolio-btn);
   font-weight: 500;
@@ -474,12 +477,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 94px;
+  padding-bottom: 34px;
 }
 .portfolio-item {
   display: flex;
   align-items: center;
-  padding-top: 94px;
-  padding-bottom: 34px;
 }
 .portfolio-item-card {
   background: #ffffff;
@@ -497,5 +500,9 @@ body {
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
+}
+.card {
+  border: 1px solid #e5e5e5;
+  border-top: none;
 }
 /*-----------------End Portfolio Main-----------------*/
