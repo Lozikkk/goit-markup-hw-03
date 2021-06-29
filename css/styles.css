@@ -55,8 +55,10 @@ img {
 /*---------------------Style Header---------------*/
 
 .header {
+  padding-top: 24px;
+  padding-bottom: 24px;
   background-color: #ffffff;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 .logo {
   font-family: var(--secondary-font);
@@ -69,8 +71,6 @@ img {
   color: #000000;
 
   margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 .logo-type {
   font-family: var(--secondary-font);
@@ -96,8 +96,6 @@ img {
 }
 .contacts-list {
   margin-left: auto;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -159,14 +157,10 @@ body {
 
 .hero {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
-.hero-container {
-  display: flex;
-  align-items: center;
-  width: 1600px;
-  height: 600px;
-  flex-direction: column;
-}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -177,9 +171,8 @@ body {
 
   color: #ffffff;
 
+  margin: 0 auto;
   width: 696px;
-  height: 120px;
-  margin-top: 200px;
   margin-bottom: 30px;
 }
 .modal-btn {
