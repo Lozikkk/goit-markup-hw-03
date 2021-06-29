@@ -43,17 +43,12 @@ img {
 /*----------------------Container---------------------*/
 
 .container {
-  width: 1630px;
+  width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
-.container-portfolio {
-  width: 1230px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+
 /*-----------------------EndContainer-----------------*/
 
 /*---------------------Style Header---------------*/
@@ -63,11 +58,6 @@ img {
   border: 1px solid #ececec;
 }
 .logo {
-  margin-left: 215px;
-  margin-top: 24px;
-  margin-bottom: 25px;
-  margin-right: 93px;
-
   font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
@@ -76,6 +66,10 @@ img {
   letter-spacing: 0.03em;
 
   color: #000000;
+
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .logo-type {
   font-family: var(--secondary-font);
@@ -101,6 +95,8 @@ img {
 }
 .contacts-list {
   margin-left: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -117,6 +113,7 @@ img {
   letter-spacing: 0.02em;
 
   color: #757575;
+  margin-right: 50px;
 }
 .contacts-mail:hover,
 .contacts-mail:focus {
@@ -130,11 +127,6 @@ img {
   letter-spacing: 0.02em;
 
   color: #757575;
-
-  margin-right: 215px;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  margin-left: 50px;
 }
 .contacts-phone-number:hover,
 .contacts-phone-number:focus {
@@ -246,10 +238,7 @@ body {
 .advantages-list {
   display: flex;
   align-items: center;
-  padding-left: 215px;
-  padding-right: 215px;
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 .advantages-list-item:not(:last-child) {
   margin-right: 30px;
@@ -263,16 +252,10 @@ body {
 .about-as {
   background-color: #ffffff;
 }
-.about-as-container {
-  display: flex;
-  align-items: center;
-}
 
 .about-as-list {
   display: flex;
   align-items: center;
-  margin-left: 215px;
-  margin-right: 215px;
   padding-bottom: 94px;
 }
 .about-as-title {
@@ -284,6 +267,8 @@ body {
   padding-bottom: 50px;
 
   color: #212121;
+  padding-top: 93px;
+  padding-bottom: 50px;
 }
 .about-as-item:not(:last-child) {
   margin-right: 30px;
@@ -513,7 +498,7 @@ body {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
-.container-buuton {
+.container-buton {
   display: flex;
   align-items: center;
   justify-content: center;
